@@ -10,7 +10,7 @@ This is a personal blogging website where a user can create and share their opin
 
 ## Screenshot
 
-![Screenshot](./screenshots/screenshot.png)
+![Screenshot](./screenshots/screenshot1.png)
 
 ## Set-up Instructions
 
