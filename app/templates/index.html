@@ -1,0 +1,28 @@
+{% extends 'base.html'%}
+{% block content %}
+<div class="container-fluid welcome-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 welcome">
+                {% if current_user.is_authenticated%}
+                <a id="start" class="btn btn-danger animated infinite flash" href="{{url_for('main.index')}}"></a>
+                {% endif %}
+                <div class="container jumbotron" >
+                    
+                    <p>{{quotes.quote}}</p>
+                    <p>{{quotes.author}}</p>
+                </div>
+                {%for blog in blogs%}
+                <div>
+                   <p>{{blog.title}}</p> 
+                   <p>{{blog.blog}}</p>
+                   <p>{{blog.user}}</p>
+                   
+                </div>
+                <a href="/blog/comment/{{blog.id}}">comment</a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
