@@ -28,6 +28,10 @@ This is a personal blogging website where a user can create and share their opin
 - Flask
 - Python
 
+## Live link
+
+https://bloog3.herokuapp.com
+
 # License
 
 MIT License
