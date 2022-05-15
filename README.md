@@ -27,6 +27,7 @@ This is a personal blogging website where a user can create and share their opin
 - Bootstrap
 - Flask
 - Python
+- Heroku
 
 ## Live link
 
